@@ -16,8 +16,8 @@ $ curl localhost/api?model=demo -X POST -d '{"test": "message"}'
 
 ## Model installation
 
-Use `./models/zoo/` directory to store your models. 
-Each model package should contain the class with the following methods:
+Specify an url to the model package in `requirements.txt`
+Model package should contain `setup.py` and the class with the following methods:
 
 ```python
 class YourModel:
@@ -30,10 +30,12 @@ class YourModel:
     def predict_probabilities(self, messages):
         pass
 ```
+You can see the example in the repository [HERE](https://github.com/belya/troll2vec)
 
-Define this class in `model_classes` dict of `./models/__init__.py`:
+Then add `YourModel` class in `model_classes` dict of `./models/__init__.py`:
 
 ```python
+from demo.model import DemoModel
 ...
 model_classes = {
     # Add your models here, like:

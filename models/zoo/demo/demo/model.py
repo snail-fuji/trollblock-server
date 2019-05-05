@@ -1,6 +1,9 @@
+from demo.utils import demo_load
+
+
 class DemoModel:
     def load(self):
-        print("Demo model loaded")
+        demo_load()
 
     def preprocess(self, messages):
         return messages
