@@ -1,0 +1,4 @@
+/.idea
+/nginx/logs/*
+!/nginx/logs/.gitkeep
+__pycache__
