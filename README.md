@@ -31,7 +31,7 @@ class YourModel:
         pass
 ```
 
-Define your model in these lines of `./models/__init__.py`:
+Define this class in `model_classes` dict of `./models/__init__.py`:
 
 ```python
 ...
