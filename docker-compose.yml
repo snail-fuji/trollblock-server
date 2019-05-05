@@ -12,6 +12,4 @@ services:
     trollblock:
         restart: always
         build: .
-        volumes:
-            - ./models:/var/lib/trollblock/models
         network_mode: host

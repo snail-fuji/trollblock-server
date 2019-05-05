@@ -1,7 +1,8 @@
 from models.basic_model import BasicModel
-from models.demo.demo_model import DemoModel
+from models.zoo.demo.demo_model import DemoModel
 
 model_classes = {
+    # Add your models here, like:
     "demo": DemoModel
 }
 
