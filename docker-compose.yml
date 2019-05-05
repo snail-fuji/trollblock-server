@@ -1,0 +1,17 @@
+version: '3'
+services:
+    nginx:
+        restart: always
+        image: nginx:latest
+        network_mode: host
+        volumes:
+            - ./nginx/logs:/tmp/logs
+            - ./nginx/config:/etc/nginx/conf.d
+        depends_on:
+            - trollblock
+    trollblock:
+        restart: always
+        build: .
+        volumes:
+            - ./models:/var/lib/trollblock/models
+        network_mode: host
