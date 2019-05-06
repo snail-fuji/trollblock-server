@@ -30,7 +30,7 @@ class YourModel:
     def predict_probabilities(self, messages):
         pass
 ```
-You can see the example in the repository [HERE](https://github.com/belya/troll2vec)
+You can see the example in the repository [HERE](https://github.com/belya/troll2vec/tree/package)
 
 Then add `YourModel` class in `model_classes` dict of `./models/__init__.py`:
 
