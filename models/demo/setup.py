@@ -5,5 +5,5 @@ setup(name='demo',
       description='Demo model for the server',
       author='TrollBlock',
       license='MIT',
-      packages=['demo'],
+      packages=['demo', 'demo/utils'],
       zip_safe=False)

@@ -1,4 +1,4 @@
-from demo.utils import demo_load
+from demo.utils.utils import demo_load
 
 
 class DemoModel:
