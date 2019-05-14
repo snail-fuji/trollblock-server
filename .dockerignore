@@ -1,3 +1,4 @@
 /.idea
 /nginx
+/models/zoo
 __pycache__

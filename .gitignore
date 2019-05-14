@@ -1,4 +1,6 @@
 /.idea
 /nginx/logs/*
 !/nginx/logs/.gitkeep
+/models/zoo/*
+!/models/zoo/demo
 __pycache__
