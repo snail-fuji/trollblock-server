@@ -2,7 +2,7 @@ from models.basic_model import BasicModel
 from demo.model import DemoModel
 
 model_classes = {
-    # Add your models here, like:
+    # Define your models here, like:
     "demo": DemoModel,
 }
 

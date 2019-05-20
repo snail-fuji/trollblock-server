@@ -4,8 +4,6 @@ ADD . /var/lib/trollblock
 
 RUN pip install -r /var/lib/trollblock/requirements.txt
 
-RUN cd /var/lib/trollblock && nosetests .
-
 RUN cd /var/lib/trollblock/models/zoo/demo && pip3 install .
 RUN cd /var/lib/trollblock/models/zoo/trollblock-ulmfit-bpe && pip3 install .
 

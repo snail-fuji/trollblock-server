@@ -13,3 +13,5 @@ services:
         restart: always
         build: .
         network_mode: host
+        volumes:
+          - ./tmp:/tmp

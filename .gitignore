@@ -3,4 +3,5 @@
 !/nginx/logs/.gitkeep
 /models/zoo/*
 !/models/zoo/demo
+/tmp
 __pycache__
